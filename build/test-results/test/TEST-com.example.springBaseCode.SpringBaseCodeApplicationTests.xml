@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springBaseCode.SpringBaseCodeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-08T14:33:04" hostname="DESKTOP-IUND7LT" time="0.585">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.springBaseCode.SpringBaseCodeApplicationTests" time="0.585"/>
+  <system-out><![CDATA[23:32:59.142 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.springBaseCode.SpringBaseCodeApplicationTests]: SpringBaseCodeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:32:59.320 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.springBaseCode.SpringBaseCodeApplication for test class com.example.springBaseCode.SpringBaseCodeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-05-08T23:32:59.937+09:00  INFO 22028 --- [springBaseCode] [    Test worker] c.e.s.SpringBaseCodeApplicationTests     : Starting SpringBaseCodeApplicationTests using Java 17.0.7 with PID 22028 (started by lsh in D:\welabss\springBaseCode)
+2025-05-08T23:32:59.938+09:00  INFO 22028 --- [springBaseCode] [    Test worker] c.e.s.SpringBaseCodeApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-05-08T23:33:00.828+09:00  INFO 22028 --- [springBaseCode] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-08T23:33:00.934+09:00  INFO 22028 --- [springBaseCode] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2025-05-08T23:33:01.609+09:00  INFO 22028 --- [springBaseCode] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-08T23:33:01.714+09:00  INFO 22028 --- [springBaseCode] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-05-08T23:33:01.776+09:00  INFO 22028 --- [springBaseCode] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-08T23:33:02.187+09:00  INFO 22028 --- [springBaseCode] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-08T23:33:02.231+09:00  INFO 22028 --- [springBaseCode] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-08T23:33:02.343+09:00  INFO 22028 --- [springBaseCode] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@389008d1
+2025-05-08T23:33:02.345+09:00  INFO 22028 --- [springBaseCode] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-08T23:33:02.376+09:00  WARN 22028 --- [springBaseCode] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-08T23:33:02.399+09:00  INFO 22028 --- [springBaseCode] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.11.11
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-08T23:33:03.302+09:00  INFO 22028 --- [springBaseCode] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-08T23:33:03.348+09:00  INFO 22028 --- [springBaseCode] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-08T23:33:03.921+09:00  WARN 22028 --- [springBaseCode] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-08T23:33:04.730+09:00  INFO 22028 --- [springBaseCode] [    Test worker] c.e.s.SpringBaseCodeApplicationTests     : Started SpringBaseCodeApplicationTests in 5.08 seconds (process running for 6.785)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
